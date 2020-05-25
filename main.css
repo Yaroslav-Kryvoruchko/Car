@@ -1,0 +1,310 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+}
+
+.footer_main {
+    background: #323232;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 0.5rem;
+    z-index: 1;
+}
+
+.footer_main__items {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+}
+
+.footer_main__item {
+    margin-left: 5rem;
+}
+
+.footer_main__item a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.9rem;
+    transition: color 0.3s ease 0s;
+}
+
+.footer_main__item a:hover {
+    color: #bbb;
+    transition: color 0.5s ease 0s;
+}
+
+#main-section {
+    position: relative;
+    background: url("images/car.jpg");
+    background-attachment: fixed;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.center-items {
+    margin-top: 12rem;
+    text-align: center;
+}
+
+.center-items h1 {
+    font-family: 'Anton', sans-serif;
+    font-size: 4rem;
+    font-weight: 900;
+    color: white;
+    margin: 0;
+}
+
+.center-items p {
+    font-family: 'Anton', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 900;
+    color: white;
+    margin: 0;
+}
+
+.bottom-items {
+    margin-top: 14rem;
+    padding: 0;
+}
+
+.bottom-items img {
+    width: 40px;
+    height: 40px;
+    margin-right: 1rem;
+}
+
+#services-section {
+    position: relative;
+    background: url("images/fon.jpg");
+    background-attachment: fixed;
+    width: 100%;
+    height: 95vh;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.service {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+}
+
+.service h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 2rem;
+    color: white;
+
+}
+
+.service hr {
+    width: 20%;
+    border: 2px solid white;
+    background: white;
+}
+
+.service__items {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    text-align: center;
+    padding: 0;
+    margin: 0rem;
+    
+}
+
+.service__item {
+    margin-top: 3rem;
+    color: white;
+}
+
+.service__item p {
+    width: 50%;
+    margin: 0 auto;
+}
+
+#works-section {
+    position: relative;
+    width: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.works-items {
+    text-align: center;
+    padding: 2rem;
+}
+
+.works-items h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 2rem;
+    color: #2f2e2e;
+    margin-bottom: 1rem;
+}
+
+.works-items hr {
+    width: 5%;
+    border: 2px solid #2f2e2e;
+    background: #2f2e2e;
+}
+
+.works-items p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    color: #2f2e2e;
+    margin-bottom: 2rem;
+}
+
+.works-items img {
+    width: 450px;
+    height: 320px;
+    margin: 0;
+    transition: filter 0.5s ease 0s;
+}
+
+.works-items img:hover {
+    filter: brightness(60%);
+    transition: filter 1s ease 0s;
+    cursor: pointer;
+}
+
+#about-section {
+    position: relative;
+    background: url("images/fon.jpg");
+    background-attachment: fixed;
+    width: 100%;
+    height: 95vh;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about__items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 600px;
+    height: 500px;
+    background: white;
+    text-align: center;
+}
+
+.about__items h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.about__items hr {
+    width: 10%;
+    border: 2px solid #2f2e2e;
+    background: #2f2e2e;
+}
+
+.about__items p {
+    width: 80%;
+}
+
+#service {
+    background: url("images/servise.jpg") left 10% bottom 10% / cover no-repeat border-box;
+    background-attachment: fixed;
+    width: 100%;
+    height: 600px;
+}
+
+#info {
+    position: relative;
+    background: url("images/fon.jpg");
+    background-attachment: fixed;
+    width: 100%;
+    height: 95vh;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main_info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 600px;
+    height: 500px;
+    background: white;
+}
+
+.items {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.items_left {
+    list-style: none;
+    padding: 0;
+    margin-right: 2rem;
+}
+
+.right_items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 2rem;
+}
+
+.right_items input {
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+}
+
+.right_items button {
+    padding: 0.2rem 4rem;
+}
+
+#footer {
+    position: relative;
+    width: 100%;
+    height: 100px;
+    top: 0;
+    left: 0;
+    background: #2f2e2e;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
